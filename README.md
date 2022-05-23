@@ -69,3 +69,6 @@ Source: https://github.com/ProxymanApp/OKHTTP-Android-Sample/blob/master/app/src
     </domain-config>
 </network-security-config>
 ```
+
+### Screenshots
+![Proxyman with Android](https://github.com/ProxymanApp/OKHTTP-Android-Sample/blob/master/images/Proxyman_Android.png)
