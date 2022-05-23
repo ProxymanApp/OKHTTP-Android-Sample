@@ -1,0 +1,1 @@
+This folder contains an Android Studio project with a version of the Approov Shapes App using OkHttp.
