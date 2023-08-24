@@ -1,10 +1,10 @@
-#Thu Aug 24 10:07:52 ICT 2023
-base.2=/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
-path.2=14/classes.dex
-base.1=/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-path.1=0/classes.dex
+#Thu Aug 24 10:18:06 ICT 2023
 base.0=/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
-renamed.0=classes.dex
+base.1=/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
 path.0=classes.dex
+path.1=0/classes.dex
+path.2=14/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

@@ -10,16 +10,7 @@
     <base-config cleartextTrafficPermitted="true">
         <trust-anchors>
             <certificates src="system" />
+            <certificates src="user" />
         </trust-anchors>
     </base-config>
-
-    <domain-config>
-        <!-- Make sure your URL Server here -->
-        <domain includeSubdomains="true">shapes.approov.io</domain>
-        <domain includeSubdomains="true">httpbin.org</domain>
-        <trust-anchors>
-            <certificates src="user"/>
-            <certificates src="system"/>
-        </trust-anchors>
-    </domain-config>
 </network-security-config>
