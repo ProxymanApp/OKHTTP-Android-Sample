@@ -706,6 +706,7 @@ id beginning
 id blocking
 id bottom
 id btnConnectionCheck
+id btnConnectionCheck2
 id btnShapesCheck
 id buttonPanel
 id center_vertical
@@ -715,7 +716,6 @@ id chronometer
 id collapseActionView
 id content
 id contentPanel
-id controls
 id custom
 id customPanel
 id decor_content_parent
@@ -735,7 +735,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imgStatus
 id info
 id italic
 id item1
@@ -819,7 +818,6 @@ id unchecked
 id uniform
 id up
 id useLogo
-id viewStatus
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner

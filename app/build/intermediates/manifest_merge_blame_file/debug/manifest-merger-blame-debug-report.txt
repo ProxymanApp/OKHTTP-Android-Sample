@@ -6,54 +6,54 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
+8-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
+9-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:5:5-67
-11-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:5:22-64
+11-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:6:5-79
-12-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:6:22-76
+12-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:6:22-76
 13
 14    <application
-14-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:8:5-24:19
+14-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:8:5-24:19
 15        android:name="io.approov.shapes.ShapesApp"
-15-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:15:9-51
+15-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:15:9-51
 16        android:allowBackup="true"
-16-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:9:9-35
+16-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:9:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 17-->[androidx.core:core:1.7.0] /Users/nghiatran/.gradle/caches/transforms-3/d79cd730aff89e16bbe6bbee05f6ceb1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 18        android:debuggable="true"
 19        android:icon="@mipmap/ic_launcher"
-19-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:10:9-43
+19-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:10:9-43
 20        android:label="@string/app_name"
-20-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:11:9-41
+20-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:11:9-41
 21        android:networkSecurityConfig="@xml/network_security_config"
-21-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:16:9-69
+21-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:16:9-69
 22        android:roundIcon="@mipmap/ic_launcher"
-22-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:12:9-48
+22-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:12:9-48
 23        android:supportsRtl="true"
-23-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:13:9-35
+23-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:13:9-35
 24        android:testOnly="true"
 25        android:theme="@style/AppTheme" >
-25-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:14:9-40
+25-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:14:9-40
 26        <activity
-26-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:18:9-23:20
+26-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:18:9-23:20
 27            android:name="io.approov.shapes.MainActivity"
-27-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:18:19-47
+27-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:18:19-47
 28            android:exported="true" >
-28-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:18:48-71
+28-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:18:48-71
 29            <intent-filter>
-29-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:19:13-22:29
+29-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:19:13-22:29
 30                <action android:name="android.intent.action.MAIN" />
-30-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:20:17-69
-30-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:20:25-66
+30-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:20:17-69
+30-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:20:25-66
 31
 32                <category android:name="android.intent.category.LAUNCHER" />
-32-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:21:17-77
-32-->/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:21:27-74
+32-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:21:17-77
+32-->/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:21:27-74
 33            </intent-filter>
 34        </activity>
 35
