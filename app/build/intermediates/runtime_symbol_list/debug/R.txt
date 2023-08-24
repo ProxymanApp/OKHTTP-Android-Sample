@@ -714,7 +714,6 @@ int id chronometer 0x7f080047
 int id collapseActionView 0x7f080048
 int id content 0x7f080049
 int id contentPanel 0x7f08004a
-int id controls 0x7f08004b
 int id custom 0x7f08004c
 int id customPanel 0x7f08004d
 int id decor_content_parent 0x7f08004e
@@ -734,7 +733,6 @@ int id icon 0x7f08005b
 int id icon_group 0x7f08005c
 int id ifRoom 0x7f08005d
 int id image 0x7f08005e
-int id imgStatus 0x7f08005f
 int id info 0x7f080060
 int id italic 0x7f080061
 int id item1 0x7f080062
@@ -818,7 +816,6 @@ int id unchecked 0x7f0800af
 int id uniform 0x7f0800b0
 int id up 0x7f0800b1
 int id useLogo 0x7f0800b2
-int id viewStatus 0x7f0800b3
 int id view_tree_lifecycle_owner 0x7f0800b4
 int id view_tree_saved_state_registry_owner 0x7f0800b5
 int id view_tree_view_model_store_owner 0x7f0800b6

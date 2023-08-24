@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/nghiatran/.gradle/caches/transforms-3/02e0bd612fca2a22099e175f45d3c7d6/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] /Users/nghiatran/.gradle/caches/transforms-3/381c3d1d8983f6ae70117b7dabc2bc42/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] /Users/nghiatran/.gradle/caches/transforms-3/3cb6e4bd4bbac15b8ccc094d3a98038c/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
@@ -31,33 +31,33 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/nghiatran/.gradl
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nghiatran/.gradle/caches/transforms-3/4227bc7bf4fb80fb99ec5fa0207a526d/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nghiatran/.gradle/caches/transforms-3/ea4c74a463f932c7b3d59f048c7fce9c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nghiatran/.gradle/caches/transforms-3/1d4140b3ab3f7eaa9a9cf573d4e787c2/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:3:5-32
-		INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:8:5-24:19
+ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:8:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nghiatran/.gradle/caches/transforms-3/a041a9a952b29f6964d85f5771c8e429/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nghiatran/.gradle/caches/transforms-3/a041a9a952b29f6964d85f5771c8e429/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.core:core:1.7.0] /Users/nghiatran/.gradle/caches/transforms-3/d79cd730aff89e16bbe6bbee05f6ceb1/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
@@ -71,41 +71,41 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nghiatran/.gradle/ca
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /Users/nghiatran/.gradle/caches/transforms-3/d79cd730aff89e16bbe6bbee05f6ceb1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:12:9-48
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:12:9-48
 	android:icon
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:14:9-40
 	android:networkSecurityConfig
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:16:9-69
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:16:9-69
 	android:name
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:15:9-51
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:15:9-51
 activity#io.approov.shapes.MainActivity
-ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:18:9-23:20
+ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:18:9-23:20
 	android:exported
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:18:48-71
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:18:48-71
 	android:name
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:18:19-47
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:18:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:19:13-22:29
+ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:21:27-74
 uses-sdk
-INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
-INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/nghiatran/.gradle/caches/transforms-3/02e0bd612fca2a22099e175f45d3c7d6/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/nghiatran/.gradle/caches/transforms-3/02e0bd612fca2a22099e175f45d3c7d6/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /Users/nghiatran/.gradle/caches/transforms-3/381c3d1d8983f6ae70117b7dabc2bc42/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
@@ -160,16 +160,16 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nghiatran/.gradle/
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nghiatran/.gradle/caches/transforms-3/ea4c74a463f932c7b3d59f048c7fce9c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nghiatran/.gradle/caches/transforms-3/1d4140b3ab3f7eaa9a9cf573d4e787c2/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nghiatran/.gradle/caches/transforms-3/1d4140b3ab3f7eaa9a9cf573d4e787c2/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
-INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nghiatran/.gradle/caches/transforms-3/a041a9a952b29f6964d85f5771c8e429/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nghiatran/.gradle/caches/transforms-3/2d2b81fd1f5d13f7e9fe71a47a19c028/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20

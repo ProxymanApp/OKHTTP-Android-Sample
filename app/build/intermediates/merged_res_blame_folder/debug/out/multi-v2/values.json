@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/nghiatran/.gradle/caches/transforms-3/f6c393a3d1bdad786d27299fa34129fa/transformed/jetified-appcompat-resources-1.4.1/res/values/values.xml",
@@ -20,23 +20,6 @@
                         "endLines": "1983,1990,2001,3103,3108",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "133485,133870,134467,193222,193492"
-                    }
-                },
-                {
-                    "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1,2,3,4,5,7,6",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "16,75,118,176,233,383,307",
-                        "endColumns": "58,42,57,56,73,68,75",
-                        "endOffsets": "70,113,171,228,302,447,378"
-                    },
-                    "to": {
-                        "startLines": "298,299,300,301,302,304,305",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "19340,19399,19442,19500,19557,19684,19753",
-                        "endColumns": "58,42,57,56,73,68,75",
-                        "endOffsets": "19394,19437,19495,19552,19626,19748,19824"
                     }
                 },
                 {
@@ -97,23 +80,6 @@
                     }
                 },
                 {
-                    "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
-                    },
-                    "to": {
-                        "startLines": "30,31,32",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "2093,2139,2186",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "2134,2181,2232"
-                    }
-                },
-                {
                     "source": "/Users/nghiatran/.gradle/caches/transforms-3/7ce0499ae5e491afef9ccf65e0f9d963/transformed/lifecycle-runtime-2.4.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -148,7 +114,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/values/styles.xml",
+                    "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -164,6 +130,23 @@
                         "endLines": "317",
                         "endColumns": "12",
                         "endOffsets": "20656"
+                    }
+                },
+                {
+                    "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
+                    },
+                    "to": {
+                        "startLines": "30,31,32",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "2093,2139,2186",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "2134,2181,2232"
                     }
                 },
                 {
@@ -198,6 +181,23 @@
                         "startOffsets": "19257",
                         "endColumns": "82",
                         "endOffsets": "19335"
+                    }
+                },
+                {
+                    "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1,2,3,4,5,7,6",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "16,75,118,176,233,383,307",
+                        "endColumns": "58,42,57,56,73,68,75",
+                        "endOffsets": "70,113,171,228,302,447,378"
+                    },
+                    "to": {
+                        "startLines": "298,299,300,301,302,304,305",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "19340,19399,19442,19500,19557,19684,19753",
+                        "endColumns": "58,42,57,56,73,68,75",
+                        "endOffsets": "19394,19437,19495,19552,19626,19748,19824"
                     }
                 }
             ]

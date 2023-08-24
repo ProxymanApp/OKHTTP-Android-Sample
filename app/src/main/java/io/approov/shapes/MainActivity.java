@@ -43,8 +43,6 @@ import okhttp3.Response;
 public class MainActivity extends Activity {
     private static final String TAG = MainActivity.class.getSimpleName();
     private Activity activity;
-    private View statusView = null;
-    private ImageView statusImageView = null;
     private TextView statusTextView = null;
     private Button helloCheckButton = null;
     private Button shapesCheckButton = null;
@@ -56,8 +54,6 @@ public class MainActivity extends Activity {
         activity = this;
 
         // find controls
-        statusView = findViewById(R.id.viewStatus);
-        statusImageView = (ImageView) findViewById(R.id.imgStatus);
         statusTextView = findViewById(R.id.txtStatus);
         helloCheckButton = findViewById(R.id.btnConnectionCheck);
         shapesCheckButton = findViewById(R.id.btnShapesCheck);
@@ -66,63 +62,11 @@ public class MainActivity extends Activity {
         helloCheckButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // hide status
-                activity.runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        statusView.setVisibility(View.INVISIBLE);
-                    }
-                });
-
-                HttpUrl.Builder urlBuilder
-                        = HttpUrl.parse("https://httpbin.org/get").newBuilder();
+                HttpUrl.Builder urlBuilder = HttpUrl.parse("https://httpbin.org/get").newBuilder();
                 urlBuilder.addQueryParameter("id", "1");
                 urlBuilder.addQueryParameter("name", "Proxyman");
-
                 String url = urlBuilder.build().toString();
-
-                // make a new Request
-                Request request = new Request.Builder()
-                        .url(url).build();
-                OkHttpClient client = new OkHttpClient();
-                client.newCall(request).enqueue(new Callback() {
-                    @Override
-                    public void onFailure(Call call, IOException e) {
-                        Log.d(TAG, "Hello call failed: " + e.getMessage());
-                        final int imgId = R.drawable.confused;
-                        final String msg = "Request failed: " + e.getMessage();
-                        activity.runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                statusImageView.setImageResource(imgId);
-                                statusTextView.setText(msg);
-                                statusView.setVisibility(View.VISIBLE);
-                            }
-                        });
-                    }
-
-                    @Override
-                    public void onResponse(Call call, Response response) throws IOException {
-                        final int imgId;
-                        final String msg = "Http status code " + response.code();
-                        if (response.isSuccessful()){
-                            Log.d(TAG,"Hello call successful");
-                            imgId = R.drawable.hello;
-                        } else {
-                            Log.d(TAG,"Hello call unsuccessful");
-                            imgId = R.drawable.confused;
-                        }
-
-                        activity.runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                statusImageView.setImageResource(imgId);
-                                statusTextView.setText(msg);
-                                statusView.setVisibility(View.VISIBLE);
-                            }
-                        });
-                    }
-                });
+                makeRequest(url);
             }
         });
 
@@ -130,88 +74,47 @@ public class MainActivity extends Activity {
         shapesCheckButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // hide status
+                HttpUrl.Builder urlBuilder = HttpUrl.parse("https://httpbin.proxyman.app/get").newBuilder();
+                urlBuilder.addQueryParameter("id", "1");
+                urlBuilder.addQueryParameter("name", "Proxyman");
+                String url = urlBuilder.build().toString();
+                makeRequest(url);
+            }
+        });
+    }
+
+    private void makeRequest(String url) {
+        // make a new Request
+        Request request = new Request.Builder()
+                .url(url).build();
+        OkHttpClient client = new OkHttpClient();
+        client.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                Log.d(TAG, "Hello call failed: " + e.getMessage());
+                final String msg = "Request failed: " + e.getMessage();
                 activity.runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        statusView.setVisibility(View.INVISIBLE);
+                        statusTextView.setText(msg);
                     }
                 });
+            }
 
-                // *** COMMENT THE LINE BELOW FOR APPROOV ***
-                OkHttpClient client = new OkHttpClient();
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                final int imgId;
+                final String msg = "Http status code " + response.code();
+                if (response.isSuccessful()){
+                    Log.d(TAG,"Hello call successful");
+                } else {
+                    Log.d(TAG,"Hello call unsuccessful");
+                }
 
-                // *** UNCOMMENT THE LINE BELOW FOR APPROOV USING SECRETS PROTECTION ***
-                //ApproovService.addSubstitutionHeader("Api-Key", null);
-
-                // *** UNCOMMENT THE LINE BELOW FOR APPROOV ***
-                //OkHttpClient client = ApproovService.getOkHttpClient();
-
-                // create a new request including the API key to get Shapes
-                String url = getResources().getString(R.string.shapes_url);
-                String apiKey = getResources().getString(R.string.shapes_api_key);
-                Request request = new Request.Builder().addHeader("Api-Key", apiKey).url(url).build();
-                client.newCall(request).enqueue(new Callback() {
+                activity.runOnUiThread(new Runnable() {
                     @Override
-                    public void onFailure(Call call, IOException e) {
-                        Log.d(TAG, "Shapes call failed: " + e.getMessage());
-                        final int imgId = R.drawable.confused;
-                        final String msg = "Request failed: " + e.getMessage();
-                        activity.runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                statusImageView.setImageResource(imgId);
-                                statusTextView.setText(msg);
-                                statusView.setVisibility(View.VISIBLE);
-                            }
-                        });
-                    }
-
-                    @Override
-                    public void onResponse(Call call, Response response) throws IOException {
-                        int imgId = R.drawable.confused;
-                        String msg = "Http status code " + response.code();
-                        if (response.isSuccessful()) {
-                            Log.d(TAG, "Shapes call successful");
-                            JSONObject shapeJSON = null;
-                            try {
-                                shapeJSON = new JSONObject(response.body().string());
-                            } catch (JSONException e) {
-                                msg = "Invalid JSON: " + e.toString();
-                            }
-                            if (shapeJSON != null) {
-                                try {
-                                    String shape = shapeJSON.getString("shape");
-                                    if (shape != null) {
-                                        if (shape.equalsIgnoreCase("square")) {
-                                            imgId = R.drawable.square;
-                                        } else if (shape.equalsIgnoreCase("circle")) {
-                                            imgId = R.drawable.circle;
-                                        } else if (shape.equalsIgnoreCase("rectangle")) {
-                                            imgId = R.drawable.rectangle;
-                                        } else if (shape.equalsIgnoreCase("triangle")) {
-                                            imgId = R.drawable.triangle;
-                                        }
-                                    }
-                                }
-                                catch (JSONException e) {
-                                    msg = "JSONException: " + e.toString();
-                                }
-                            }
-                        } else {
-                            Log.d(TAG, "Shapes call unsuccessful");
-                        }
-
-                        final int finalImgId = imgId;
-                        final String finalMsg = msg;
-                        activity.runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                statusImageView.setImageResource(finalImgId);
-                                statusTextView.setText(finalMsg);
-                                statusView.setVisibility(View.VISIBLE);
-                            }
-                        });
+                    public void run() {
+                        statusTextView.setText(msg);
                     }
                 });
             }

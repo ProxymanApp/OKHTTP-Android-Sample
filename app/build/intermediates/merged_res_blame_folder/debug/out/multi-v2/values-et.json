@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml",
+            "outputFile": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml",
             "map": [
                 {
                     "source": "/Users/nghiatran/.gradle/caches/transforms-3/02e0bd612fca2a22099e175f45d3c7d6/transformed/appcompat-1.4.1/res/values-et/values-et.xml",

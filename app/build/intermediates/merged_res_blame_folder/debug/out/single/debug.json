@@ -1,62 +1,62 @@
 [
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/drawable_triangle.png.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/drawable/triangle.png"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/drawable_confused.png.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/drawable/confused.png"
     },
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/drawable_hello.png.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/drawable/hello.png"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/xml_network_security_config.xml.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/xml/network_security_config.xml"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/drawable_square.png.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/drawable/square.png"
     },
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/drawable_triangle.png.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/drawable/triangle.png"
     },
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/drawable_circle.png.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/drawable/circle.png"
     },
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/drawable_rectangle.png.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/drawable/rectangle.png"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/drawable_hello.png.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/drawable/hello.png"
     },
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/drawable_square.png.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/drawable/square.png"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/xml/network_security_config.xml"
     },
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/drawable_circle.png.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/drawable/circle.png"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/mipmap-ldpi_ic_launcher.png.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/mipmap-ldpi/ic_launcher.png"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/drawable_approov.png.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/drawable/approov.png"
     },
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/drawable_approov.png.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/drawable/approov.png"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/mipmap-ldpi_ic_launcher.png.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/mipmap-ldpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/drawable_confused.png.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/drawable/confused.png"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/nghiatran/Downloads/quickstart-android-java-okhttp-master/shapes-app/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/build/intermediates/merged_res/debug/drawable_rectangle.png.flat",
+        "source": "/Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/res/drawable/rectangle.png"
     }
 ]
