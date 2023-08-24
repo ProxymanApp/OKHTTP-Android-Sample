@@ -46,6 +46,7 @@ public class MainActivity extends Activity {
     private TextView statusTextView = null;
     private Button helloCheckButton = null;
     private Button shapesCheckButton = null;
+    private Button googleCheckButton = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,26 +58,36 @@ public class MainActivity extends Activity {
         statusTextView = findViewById(R.id.txtStatus);
         helloCheckButton = findViewById(R.id.btnConnectionCheck);
         shapesCheckButton = findViewById(R.id.btnShapesCheck);
+        googleCheckButton = findViewById(R.id.btnConnectionCheck2);
 
         // handle hello connection check
         helloCheckButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 HttpUrl.Builder urlBuilder = HttpUrl.parse("https://httpbin.org/get").newBuilder();
-                urlBuilder.addQueryParameter("id", "1");
-                urlBuilder.addQueryParameter("name", "Proxyman");
+                urlBuilder.addQueryParameter("action", "Test");
+                urlBuilder.addQueryParameter("name", "Proxyman LLC");
                 String url = urlBuilder.build().toString();
                 makeRequest(url);
             }
         });
 
-        // handle getting shapes
         shapesCheckButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 HttpUrl.Builder urlBuilder = HttpUrl.parse("https://httpbin.proxyman.app/get").newBuilder();
                 urlBuilder.addQueryParameter("id", "1");
-                urlBuilder.addQueryParameter("name", "Proxyman");
+                urlBuilder.addQueryParameter("name", "Proxyman for macOS");
+                String url = urlBuilder.build().toString();
+                makeRequest(url);
+            }
+        });
+
+        // handle hello connection check
+        googleCheckButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                HttpUrl.Builder urlBuilder = HttpUrl.parse("https://www.google.com").newBuilder();
                 String url = urlBuilder.build().toString();
                 makeRequest(url);
             }
@@ -103,13 +114,15 @@ public class MainActivity extends Activity {
 
             @Override
             public void onResponse(Call call, Response response) throws IOException {
-                final int imgId;
-                final String msg = "Http status code " + response.code();
+                String bodyStr = response.body().string();
+                String upToNCharacters = bodyStr.substring(0, Math.min(bodyStr.length(), 100));
+                final String msg = "Http status code " + response.code() + "\n" + upToNCharacters;
                 if (response.isSuccessful()){
                     Log.d(TAG,"Hello call successful");
                 } else {
                     Log.d(TAG,"Hello call unsuccessful");
                 }
+
 
                 activity.runOnUiThread(new Runnable() {
                     @Override

@@ -705,6 +705,7 @@ int id beginning 0x7f08003e
 int id blocking 0x7f08003f
 int id bottom 0x7f080040
 int id btnConnectionCheck 0x7f080041
+int id btnConnectionCheck2 0x7f0800ba
 int id btnShapesCheck 0x7f080042
 int id buttonPanel 0x7f080043
 int id center_vertical 0x7f080044

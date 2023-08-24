@@ -706,6 +706,7 @@ id beginning
 id blocking
 id bottom
 id btnConnectionCheck
+id btnConnectionCheck2
 id btnShapesCheck
 id buttonPanel
 id center_vertical
