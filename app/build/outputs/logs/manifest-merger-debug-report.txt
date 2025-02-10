@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/nghiatran/.gradle/caches/8.10.2/transforms/85c3a1be5ffd469f6c6df39e31c22aa9/transformed/material3-release/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-android:1.6.6] /Users/nghiatran/.gradle/caches/8.10.2/transforms/8de229a77d7923f0fb768578456fcee3/transformed/material-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] /Users/nghiatran/.gradle/caches/8.10.2/transforms/9b713012f9b2764779723c8a404a3b09/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
@@ -63,8 +63,8 @@ ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidMa
 	android:name
 		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:7:5-28:19
-INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:7:5-28:19
+ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:7:5-29:19
+INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:7:5-29:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] /Users/nghiatran/.gradle/caches/8.10.2/transforms/6aded50d2522441658f3015c7dbae7de/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] /Users/nghiatran/.gradle/caches/8.10.2/transforms/6aded50d2522441658f3015c7dbae7de/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] /Users/nghiatran/.gradle/caches/8.10.2/transforms/9071b12df2694b92bb1d75d3b6927ebc/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:22:5-26:19
@@ -101,28 +101,30 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nghi
 		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:15:9-64
+	android:networkSecurityConfig
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:17:9-69
 	android:dataExtractionRules
 		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:9:9-65
 activity#com.example.proxyman_sample_okhttp_app.MainActivity
-ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:17:9-27:20
+ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:18:9-28:20
 	android:label
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:20:13-45
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:21:13-45
 	android:exported
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:19:13-36
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:20:13-36
 	android:theme
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:21:13-68
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:22:13-68
 	android:name
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:18:13-41
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:19:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:22:13-26:29
+ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:26:27-74
 uses-sdk
 INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
