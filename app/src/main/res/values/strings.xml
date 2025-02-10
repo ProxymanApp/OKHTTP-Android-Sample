@@ -1,9 +1,3 @@
 <resources>
-    <string name="app_name">Approov OkHttp Shapes</string>
-    <string name="app_title">Demo</string>
-    <string name="check_network_label">Say Hello</string>
-    <string name="check_shapes_label">Get Shape</string>
-    <string name="hello_url">https://shapes.approov.io/v1/hello/</string>
-    <string name="shapes_url">https://shapes.approov.io/v1/shapes/</string>
-    <string name="shapes_api_key">yXClypapWNHIifHUWmBIyPFAm</string>
- </resources>
+    <string name="app_name">Proxyman_Sample_OKHTTP_App</string>
+</resources>
