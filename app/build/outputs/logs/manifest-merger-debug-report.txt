@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/nghiatran/.gradle/caches/8.10.2/transforms/85c3a1be5ffd469f6c6df39e31c22aa9/transformed/material3-release/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-android:1.6.6] /Users/nghiatran/.gradle/caches/8.10.2/transforms/8de229a77d7923f0fb768578456fcee3/transformed/material-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] /Users/nghiatran/.gradle/caches/8.10.2/transforms/9b713012f9b2764779723c8a404a3b09/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
@@ -49,22 +49,22 @@ MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] /Users/ngh
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/nghiatran/.gradle/caches/8.10.2/transforms/282fe25d241b6386498bbff3966fed9f/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/nghiatran/.gradle/caches/8.10.2/transforms/e88593f0be3bc2af2a5aaf52256373a8/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
 	package
-		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:7:5-29:19
-INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:7:5-29:19
+ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:7:5-29:19
+INJECTED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:7:5-29:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] /Users/nghiatran/.gradle/caches/8.10.2/transforms/6aded50d2522441658f3015c7dbae7de/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] /Users/nghiatran/.gradle/caches/8.10.2/transforms/6aded50d2522441658f3015c7dbae7de/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] /Users/nghiatran/.gradle/caches/8.10.2/transforms/9071b12df2694b92bb1d75d3b6927ebc/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:22:5-26:19
@@ -82,53 +82,53 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nghiatran/.gradle/ca
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nghiatran/.gradle/caches/8.10.2/transforms/42398e22919ce29cfb547c2bb5e748b5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nghiatran/.gradle/caches/8.10.2/transforms/42398e22919ce29cfb547c2bb5e748b5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.15.0] /Users/nghiatran/.gradle/caches/8.10.2/transforms/a446d320e7fc46fe7207bd43cb3a4a38/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:16:9-29
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:15:9-64
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:15:9-64
 	android:networkSecurityConfig
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:17:9-69
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:17:9-69
 	android:dataExtractionRules
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:9:9-65
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:9:9-65
 activity#com.example.proxyman_sample_okhttp_app.MainActivity
-ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:18:9-28:20
+ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:18:9-28:20
 	android:label
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:21:13-45
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:21:13-45
 	android:exported
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:20:13-36
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:20:13-36
 	android:theme
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:22:13-68
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:22:13-68
 	android:name
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:19:13-41
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:19:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:23:13-27:29
+ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml:26:27-74
 uses-sdk
-INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
-INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/nghiatran/.gradle/caches/8.10.2/transforms/85c3a1be5ffd469f6c6df39e31c22aa9/transformed/material3-release/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/nghiatran/.gradle/caches/8.10.2/transforms/85c3a1be5ffd469f6c6df39e31c22aa9/transformed/material3-release/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-android:1.6.6] /Users/nghiatran/.gradle/caches/8.10.2/transforms/8de229a77d7923f0fb768578456fcee3/transformed/material-release/AndroidManifest.xml:5:5-44
@@ -218,9 +218,9 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/nghiatran/.gradle/cac
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/nghiatran/.gradle/caches/8.10.2/transforms/e88593f0be3bc2af2a5aaf52256373a8/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/nghiatran/.gradle/caches/8.10.2/transforms/e88593f0be3bc2af2a5aaf52256373a8/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
-		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/nghiatran/Desktop/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nghiatran/Downloads/OKHTTP-Android-Sample/app/src/main/AndroidManifest.xml
 activity#androidx.compose.ui.tooling.PreviewActivity
 ADDED from [androidx.compose.ui:ui-tooling-android:1.6.6] /Users/nghiatran/.gradle/caches/8.10.2/transforms/6aded50d2522441658f3015c7dbae7de/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
 	android:exported

@@ -76,7 +76,7 @@ fun MainContent(modifier: Modifier = Modifier) {
 
 private fun makeGetRequest(onResponse: (String) -> Unit) {
     val request = Request.Builder()
-        .url("https://httpbin.org/get")
+        .url("https://httpbin.proxyman.app/get")
         .build()
 
     OkHttpClient().newCall(request).enqueue(object : Callback {
@@ -100,7 +100,7 @@ private fun makePostRequest(onResponse: (String) -> Unit) {
     val requestBody = jsonBody.toString().toRequestBody("application/json".toMediaType())
 
     val request = Request.Builder()
-        .url("https://httpbin.org/post")
+        .url("https://httpbin.proxyman.app/post")
         .post(requestBody)
         .build()
 
